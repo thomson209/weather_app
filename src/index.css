@@ -1,13 +1,89 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding:0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.search-box {
+  width: 100%;
+  margin: 0px 0 20px;
 }
+
+.search-box .search-bar{
+  display: block;
+  font-size: 24px;
+  
+  width: 100%;
+  height: 71px;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: #535353;
+  color: white;
+}
+
+.locationBox {
+  width: 100%;
+  height: 414px;
+  background-color: #535353
+}
+
+.locationBox .location, .date, .weather, .temprature {
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.locationBox .location {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.locationBox .date {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.weatherBox .temprature{
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px;  
+}
+
+.weatherBox .weather{
+  font-size: 34px;
+  text-align: center;
+}
+
+.infoBox{
+  margin-top: 30px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.infoBox .feelsLike {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.infoBox .maxTemp {
+  color: #d39785;
+  font-size: 30px;
+  text-align: center;
+}
+
+.infoBox .minTemp {
+  color: #1ebbd7;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+  
+
+
+

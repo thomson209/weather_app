@@ -1,0 +1,26 @@
+
+
+
+main {
+    height: 128px;
+    background-color: #353535;
+}  
+
+.main-head {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+}
+
+.menu {
+    color: white;
+    transform: scale(2);
+    margin-left: -32px;
+    margin-top: 12px; 
+}
+
+.team {
+    height: 101px;
+    margin-top: 5px;
+     
+}
+
